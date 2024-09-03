@@ -1,0 +1,874 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+.s1-back-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: relative;
+}
+.s1-back-container img {
+  width: 80%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+.layer {
+  opacity: 0.9;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 100%;
+}
+.back-container-blue {
+  background-color: rgb(34, 52, 110);
+  width: 10%;
+}
+.back-container-pink {
+  background-color: rgb(210, 28, 103);
+  width: 10%;
+}
+.s1-front-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.s1-content-container {
+  width: 50%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 3rem;
+}
+.BLVDQ-verticle {
+  display: flex;
+}
+.BLVD.Q-verticle {
+  position: absolute;
+}
+.verticle-line {
+  border-left: 1px solid white;
+  position: relative;
+  height: 45px;
+  left: 20px;
+  top: 15px;
+}
+#Queens-Way-Living {
+  text-transform: uppercase;
+  max-width: 180px;
+  min-width: 145px;
+  letter-spacing: 5px;
+  padding-left: 2rem;
+  font-size: 10px;
+  padding-top: 10px;
+}
+.s1-content-container button {
+  background-color: rgb(210, 28, 103);
+  border: none;
+  text-transform: uppercase;
+  width: 137px;
+  height: 40px;
+  color: white;
+  border-radius: 5px;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+.s1-content-container #Condominious-comming {
+  max-width: 300px;
+  font-size: 1.3rem;
+  padding: 0;
+  margin: 0;
+  padding-top: 30px;
+  font-weight: 300;
+  letter-spacing: 0;
+}
+.s1-content-container h3 {
+  font-weight: 700;
+  max-width: 370px;
+}
+.s1-img-container {
+  width: 60%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.s1-img-container img {
+  height: 90%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* <!--------------- Section-2 ----------------> */
+.s2-oasis-treasures {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.s2-content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.s2-content-container p {
+  color: black;
+  font-size: 2.2rem;
+  font-weight: 700;
+  border-bottom: 2px solid rgb(171, 86, 86);
+  width: fit-content;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+.row {
+  row-gap: 1rem;
+}
+.card-wrapper {
+  position: relative;
+  cursor: pointer;
+}
+.s2-cards {
+  margin-bottom: 60px;
+  position: relative;
+}
+.s2-cards .card img {
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+}
+.s2-cards .card {
+  padding: 0;
+}
+.s2-cards .card p {
+  background-color: rgba(47, 50, 86, 0.524);
+  color: white;
+  text-align: center;
+  font-weight: 200;
+  width: 100%;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  border: none;
+}
+.s2-hover-div {
+  border: 1px solid white;
+  width: 80%;
+  height: 90%;
+  background-color: rgba(33, 25, 45, 0.571);
+  color: white;
+  position: absolute;
+  top: 5%;
+  left: 10%;
+  transition: all 0.5s;
+  transform: scale(0);
+}
+.s2-hover-list ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  row-gap: 1rem;
+  padding-left: 5px;
+}
+.s2-hover-list ul li {
+  padding-left: 10px;
+  line-height: 15px;
+  font-size: 15px;
+}
+.s2-hover-div #pink-star {
+  height: 20px;
+}
+
+.s2-hover-list .list-wrapper {
+  display: flex;
+}
+.card-wrapper:hover .s2-hover-div {
+  display: flex;
+  align-items: center;
+  transform: scale(1);
+}
+.card-wrapper:hover .card p {
+  display: none;
+}
+
+/* <!----------- Section-3 ----------> */
+.elegant-parent-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+}
+.elegant-content-container {
+  width: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* border: 1px solid black; */
+}
+.elegant-living-space p {
+  color: black;
+  font-size: 2.2rem;
+  font-weight: 700;
+  border-bottom: 2px solid rgb(171, 86, 86);
+  width: fit-content;
+  margin-bottom: 60px;
+  margin-top: 20px;
+}
+.elegant-list-image-container {
+  width: 100%;
+  display: flex;
+  column-gap: 1rem;
+}
+.elegant-list-wrapper {
+  width: 50%;
+  display: flex;
+}
+.elegant-list-icon-wrapper {
+  display: flex;
+  align-items: center;
+}
+.elegant-list-icon-wrapper img {
+  width: 28px;
+  height: 27px;
+}
+.elegant-list-wrapper ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  list-style-type: none;
+  row-gap: 1rem;
+  padding: 0;
+  margin: 0;
+}
+.elegant-list-wrapper ul li {
+  padding-left: 10px;
+  line-height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.elegant-list-wrapper ul li h1 {
+  font-size: 1.3rem;
+  font-weight: normal;
+  margin: 0;
+}
+.elegant-list-wrapper ul span {
+  font-weight: 700;
+}
+/* --- img-task --- */
+.elegant-img-container {
+  width: 50%;
+  display: flex;
+  position: relative;
+  column-gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.elegant-img-left {
+  width: 50%;
+}
+.elegant-img-right {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  position: relative;
+  object-fit: cover;
+  width: 50%;
+}
+.elegant-img-right img {
+  height: 214px;
+  border-radius: 5px;
+  transition: ease 0.2s;
+  cursor: pointer;
+  width: 100%;
+  object-fit: cover;
+}
+.elegant-img-right img:hover {
+  transform: scale(1.08);
+}
+.elegant-img-left img {
+  height: 380px;
+  width: 100%;
+  border-radius: 5px;
+  object-fit: cover;
+  transition: ease 0.2s;
+  cursor: pointer;
+}
+.elegant-img-left img:hover {
+  transform: scale(1.1);
+}
+
+/* <!---------- Section-3 --------------> */
+
+.investment-parent-container {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(226, 229, 236);
+  margin-bottom: 60px;
+  overflow: hidden;
+  clip-path: polygon(0 10%, 100% 0, 100% 90%, 0% 100%);
+}
+.investment-content-wrapper {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 80px 0px;
+}
+.investment-opportunity p {
+  color: black;
+  font-size: 1.8rem;
+  font-weight: 700;
+  border-bottom: 2px solid rgb(171, 86, 86);
+  width: fit-content;
+  margin-bottom: 30px;
+}
+.investment-cards-wrapper {
+  display: flex;
+  column-gap: 3rem;
+}
+.inverstment-card-boxes {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  background-color: rgb(34, 52, 110);
+  color: white;
+  border-radius: 15px;
+  text-transform: uppercase;
+  box-shadow: rgb(18 36 89) 0px 8px 24px;
+  transition: ease 1s;
+}
+.inverstment-card-boxes:hover {
+  transform: scale(1.2);
+}
+.inverstment-card-boxes h3 {
+  text-align: center;
+  padding: 1rem 0px;
+}
+.inverstment-card-boxes {
+  padding: 0px 1rem;
+  padding-bottom: 1rem;
+}
+
+/* <!---------- Section-4 --------------> */
+.emotion-parent-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.emotion-content-wrapper {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Elegnace-Emotion {
+  color: black;
+  font-size: 1.8rem;
+  font-weight: 700;
+  border-bottom: 3px solid rgb(171, 86, 86);
+  width: fit-content;
+  margin-bottom: 30px;
+}
+.emotion-video {
+  margin: 2rem 0px;
+}
+.emotion-video video {
+  width: 100%;
+}
+
+/* <!---------- Section-5 --------------> */
+
+.begin-journey-parent {
+  background-image: url(./images/S6/right-top.jpeg);
+  width: 100%;
+  background-size: cover;
+  background-position: center left;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+}
+.begin-journey-content-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Begin-Your-Journey p {
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 700;
+  border-bottom: 3px solid rgb(171, 86, 86);
+  width: fit-content;
+  margin-bottom: 5px !important;
+  margin-top: 30px;
+}
+.journey-form-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 100%;
+}
+.journey-form {
+  width: 50%;
+  background-color: rgba(42, 54, 103, 0.927);
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+.journey-form form {
+  width: 90%;
+  border: 4px solid white;
+  border-radius: 6px;
+  color: white;
+  margin: 1rem;
+  padding: 2rem;
+}
+form .user-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+}
+form .user-details .input-box {
+  margin-bottom: 15px;
+  width: 45%;
+}
+.user-details .input-box input {
+  height: 45px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  margin-top: 1rem;
+}
+.user-details span {
+  font-weight: 600;
+}
+form .button {
+  margin: 35px 0;
+}
+form .button input {
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.input-box .password {
+  position: relative;
+}
+.input-box .password .fa-eye {
+  position: absolute;
+  top: 28%;
+  right: 4%;
+}
+.squares .box-right {
+  height: 50%;
+  width: 50%;
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  z-index: -1;
+  border-radius: 10px;
+  background-color: #656d7c99;
+}
+.squares .box-left {
+  height: 50%;
+  width: 50%;
+  position: absolute;
+  bottom: -20px;
+  left: -20px;
+  z-index: -1;
+  border-radius: 10px;
+  background-color: #656d7c99;
+}
+.user-details .password-field {
+  position: relative;
+}
+.user-details .password-field #toggler {
+  position: absolute;
+  right: 125%;
+  top: 58%;
+  transform: translateX(-50%);
+}
+form .gender-details .gender-title {
+  font-size: 20px;
+  font-weight: 500;
+}
+form .category {
+  display: flex;
+  flex-direction: column;
+}
+form .category label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+form .category label .dot {
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  margin-right: 10px;
+  background: #d9d9d9;
+  border: 5px solid transparent;
+  transition: all 0.3s ease;
+}
+#dot-1:checked ~ .category label .one,
+#dot-2:checked ~ .category label .two,
+#dot-3:checked ~ .category label .three {
+  background: #9b59b6;
+  border-color: #d9d9d9;
+}
+.button button {
+  background-color: rgb(255, 255, 255);
+  border: 0px none rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 10px 30px;
+  width: auto;
+  white-space: normal;
+  box-shadow: rgb(255, 255, 255) 0px 0px 0px 0px;
+  color: rgb(210, 28, 103);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* <!---------- Section-6 --------------> */
+
+.creator-parent-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.creator-content-wrapper {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Creators-Background p {
+  color: black;
+  font-size: 1.8rem;
+  font-weight: 700;
+  border-bottom: 3px solid rgb(171, 86, 86);
+  width: fit-content;
+  margin-bottom: 60px !important;
+  margin-top: 40px;
+}
+.creator-mathy-home-wrapper {
+  display: flex;
+  background-color: white;
+  box-shadow: rgb(230 235 247) 0px 8px 24px;
+  margin-bottom: 60px;
+  column-gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+.creator-matty-img {
+  width: 35%;
+}
+.creator-matty-img img {
+  object-fit: cover;
+  width: 100%;
+}
+.creator-mathy-content {
+  width: 65%;
+  min-width: 400px;
+}
+.mattamy-homes {
+  color: #d21c67;
+  margin: 0;
+  padding: 0.5rem 0;
+  font-size: 1.2rem;
+}
+.mathy-para {
+  font-size: 16px;
+  padding-right: 1rem;
+}
+
+/*------------- Footer -------------*/
+footer {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-content-wrapper {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+}
+.footer-BLVD-row {
+  width: 602px;
+  display: flex;
+  margin-top: 2rem;
+  column-gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.footer-BLVD-logo {
+  width: 40%;
+}
+.footer-BLVD-logo img {
+  width: 200px;
+  object-fit: cover;
+}
+.footer-contact-portion {
+  width: 220px;
+}
+.phone h2,
+.email h2 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+.footer-call {
+  display: flex;
+}
+.footer-call img {
+  height: 30px;
+  padding-right: 30px;
+}
+.footer-email {
+  display: flex;
+}
+.footer-email img {
+  height: 30px;
+  padding-right: 30px;
+}
+.footer-second-row {
+  text-align: center;
+}
+.footer-all-rights-reserved p {
+  text-align: center;
+}
+.footer-all-rights-reserved span {
+  color: rgb(167 22 83);
+}
+
+/*------------- Media-Query -------------*/
+@media screen and (max-width: 991px) {
+  .s1-content-container {
+    margin-left: 2rem;
+  }
+  .s1-content-container h3 {
+    max-width: 310px;
+  }
+
+  /* Section-6 */
+  .creator-mathy-home-wrapper {
+    width: 100%;
+    padding: 1rem;
+  }
+  /* Section-5  */
+  .journey-form {
+    width: 55%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .s1-img-container {
+    display: none;
+  }
+  .s1-content-container {
+    width: 70%;
+  }
+  /*---- section-3-elegant---- */
+  .elegant-list-image-container {
+    flex-wrap: wrap;
+    row-gap: 3rem;
+  }
+  .elegant-list-wrapper {
+    width: 100%;
+  }
+  .elegant-img-container {
+    width: 100%;
+  }
+  .elegant-list-wrapper ul li h1 {
+    font-size: 1.2rem;
+  }
+  /*----- Secction-4 -----*/
+  .investment-content-wrapper {
+    width: 100%;
+    padding: 0px 1rem;
+  }
+  .investment-cards-wrapper {
+    column-gap: 2rem;
+  }
+  /* Section-5 */
+  .journey-form {
+    width: 100%;
+  }
+  /* Section-6 */
+  .creator-mathy-home-wrapper {
+    flex-direction: column;
+    row-gap: 2rem;
+  }
+  .creator-matty-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    order: 2;
+  }
+  .creator-matty-img img {
+    object-fit: cover;
+    width: 350px;
+  }
+  .creator-mathy-content {
+    width: 100%;
+    order: 1;
+  }
+  .creator-mathy-content {
+    min-width: 200px;
+  }
+  /* Section-2 */
+  .s2-content-container p {
+    font-size: 1.6rem;
+  }
+  /* Section-3 */
+  .elegant-living-space p {
+    font-size: 1.6rem;
+  }
+  /* Section-4 */
+  .investment-opportunity p {
+    font-size: 1.5rem;
+  }
+
+  /* Section-5 */
+  .Elegnace-Emotion {
+    font-size: 1.6rem;
+  }
+  /* Section-6 */
+  .Begin-Your-Journey p {
+    font-size: 1.6rem;
+  }
+  /* Section-7 */
+  .Creators-Background p {
+    font-size: 1.6rem;
+  }
+  /* Section-8 */
+  .footer-content-wrapper{
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .back-container-blue,
+  .back-container-pink {
+    display: none;
+  }
+  .s1-content-container {
+    width: 100%;
+  }
+  .layer,
+  .s1-back-container img {
+    width: 100%;
+  }
+  #Queens-Way-Living {
+    min-width: 0;
+    max-width: 0;
+  }
+  /*---- section-3-elegant---- */
+  .elegant-img-container {
+    row-gap: 1rem;
+    flex-direction: column;
+  }
+  .elegant-img-left {
+    width: 100%;
+  }
+  .elegant-img-right {
+    width: 100%;
+  }
+  .elegant-living-space p {
+    font-size: 1.5rem;
+  }
+  .elegant-list-wrapper ul li h1 {
+    font-size: 1rem;
+  }
+  .elegant-img-left img {
+    height: 300px;
+  }
+
+  /*----- Secction-4 -----*/
+  .investment-cards-wrapper {
+    row-gap: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .investment-parent-container{
+    clip-path: polygon(0 5%, 100% 0, 100% 93%, 0% 98%);
+  }
+  .inverstment-card-boxes {
+    width: 80%;
+  }
+  /* Section-2 */
+  .s2-content-container p {
+    font-size: 1.5rem;
+  }
+  /* Section-4 */
+  .investment-opportunity p {
+    font-size: 1.4rem;
+  }
+  /* Section-5 */
+  .Elegnace-Emotion {
+    font-size: 1.5rem;
+  }
+  /* Section-6 */
+  .Begin-Your-Journey p {
+    font-size: 1.5rem;
+  }
+  /* Section-7 */
+  .Creators-Background p {
+    font-size: 1.5rem;
+  }
+  form .user-details .input-box {
+    width: 90%;
+  }
+  /* Section-8 */
+  .creator-matty-img img {
+    object-fit: cover;
+    width: 260px;
+  }
+  /* Footer */
+  .footer-BLVD-row {
+    flex-direction: column;
+    row-gap: 1rem;
+    width: 100%;
+  }
+  .footer-BLVD-logo {
+    width: 80%;
+  }
+}
